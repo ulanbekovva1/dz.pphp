@@ -1,10 +1,10 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $db_name = 'anketa';  // Название базы данных
+    private $db_name = 'anketa'; 
     private $username = 'root';
     private $password = '';
-    private $port = 3307; // Или 3307 — проверь в XAMPP
+    private $port = 3307; 
 
     public $conn;
 
